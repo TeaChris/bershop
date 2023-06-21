@@ -2,11 +2,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import { BsSend } from 'react-icons/bs'
-import { 
+import {
   AiFillYoutube,
   AiFillFacebook,
   AiOutlineTwitter,
-  AiOutlineInstagram 
+  AiOutlineInstagram,
 } from 'react-icons/ai'
 
 import { Footerlinks, footerLinks } from '../../data'
@@ -15,13 +15,13 @@ import payment from '@/assets/payment.jpeg'
 
 export default function Footer() {
   return (
-    <footer className="w-full h-[32rem] bg-white mt-48 flex flex-col items-center gap-0">
+    <footer className="w-full h-[32rem] bg-white mt-20 flex flex-col items-center gap-0">
       <div className="w-full h-16 grid place-items-center bg-blue-800">
         <div className="w-fit flex items-center gap-16">
           {/* left */}
           <div className="w-fit">
             <h4 className="text-lg first-letter:capitalize text-white">
-              no one shopping site
+              subscribe to our newsletter
             </h4>
           </div>
 

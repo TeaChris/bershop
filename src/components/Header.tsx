@@ -39,15 +39,15 @@ export default function Header() {
         <Image src={header2} alt="" />
         <Image src={header3} alt="" />
       </div>
-      <div className="flex items-center gap-4 bottom-20 left-1/2 absolute">
+      <div className="flex items-center gap-4 bottom-0 left-[35rem] absolute">
         <button
-          className="w-12 aspect-square rounded-md grid place-items-center border border-zinc-800 hover:bg-zinc-600 transition duration-300"
+          className="w-12 aspect-square rounded-md grid place-items-center border border-zinc-800 hover:bg-slate-300 transition duration-300"
           onClick={handlePrevSlide}
         >
           <BsArrowLeft size={25} />
         </button>
         <button
-          className="w-12 aspect-square rounded-md grid place-items-center border border-zinc-800 hover:bg-zinc-600 transition duration-300"
+          className="w-12 aspect-square rounded-md grid place-items-center border border-zinc-800 hover:bg-slate-300 transition duration-300"
           onClick={handleNextSlide}
         >
           <BsArrowRight size={25} />
